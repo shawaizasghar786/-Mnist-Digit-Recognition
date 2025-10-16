@@ -1,7 +1,7 @@
 from src.load_data import load_images, load_labels
 from src.preprocess import preprocess_data
 from src.train_model import train_classifier
-from src.evaluate_model import evaluate
+from src.evaluate_model import evaluate  
 
 # Load data
 train_images = load_images("MNIST/train-images-idx3-ubyte")
