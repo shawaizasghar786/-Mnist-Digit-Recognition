@@ -1,4 +1,6 @@
 from sklearn.metrics import accuracy_score, classification_report
+import os
+os.makedirs("output", exist_ok=True)
 
 def evaluate(model, X_test, y_test):
     y_pred = model.predict(X_test)
